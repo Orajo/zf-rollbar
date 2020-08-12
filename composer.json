@@ -1,0 +1,27 @@
+{
+    "name": "orajo/zf-rollbar",
+    "description": "Zend Framework module for integration with Rollbar (https://rollbar.com)",
+    "type": "library",
+    "keywords": [
+        "zend framework 3",
+        "zf3",
+        "module"
+    ],
+    "homepage": "https://github.com/Orajo/zf-rollbar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarosław Wasilewski",
+            "email": "orajo@windowslive.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "rollbar/rollbar": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZfRollbar\\": "src/"
+        }
+    }
+}
