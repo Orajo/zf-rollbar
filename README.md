@@ -1,2 +1,2 @@
 # zf-rollbar
-Rollbar service integration into Zend Framework 3
+Rollbar (https://rollbar.com) service integration into Zend Framework 3
