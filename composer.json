@@ -17,7 +17,9 @@
         }
     ],
     "require": {
-        "rollbar/rollbar": "^2.1"
+        "rollbar/rollbar": "^2.1",
+        "laminas/laminas-dependency-plugin": "^2.1",
+        "laminas/laminas-mvc": "3.*"
     },
     "autoload": {
         "psr-4": {
