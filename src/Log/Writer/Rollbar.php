@@ -2,8 +2,8 @@
 namespace ZfRollbar\Log\Writer;
 
 use Rollbar\Payload\Level;
-use Zend\Log\Logger;
-use Zend\Log\Writer\AbstractWriter;
+use Laminas\Log\Logger;
+use Laminas\Log\Writer\AbstractWriter;
 
 class Rollbar extends AbstractWriter
 {

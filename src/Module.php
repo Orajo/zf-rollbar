@@ -4,7 +4,7 @@ namespace ZfRollbar;
 
 use Rollbar\Payload\Level;
 use Rollbar\Rollbar;
-use Zend\Mvc\MvcEvent;
+use Laminas\Mvc\MvcEvent;
 
 class Module
 {
@@ -16,10 +16,10 @@ class Module
     }
 
     /**
-     * @param  \Zend\Mvc\MvcEvent $e The MvcEvent instance
+     * @param MvcEvent $e The MvcEvent instance
      * @return void
      */
-    public function onBootstrap($e): void
+    public function onBootstrap(MvcEvent $e): void
     {
         $application   = $e->getApplication();
         $this->config = $application->getServiceManager()->get('Config');
